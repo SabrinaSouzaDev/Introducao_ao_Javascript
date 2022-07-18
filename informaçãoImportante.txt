@@ -1,0 +1,10 @@
+Para uma busca mais eficiente no terminal do windows usar o chamado document com a especificação do que quer buscar, como exemplo:
+
+document.getElementsByTagName('h2')
+
+desta forma ele retornara
+
+todos os h2 da pagina
+ com mais detalhes:
+
+document.getElementsByTagName('h2')[0]

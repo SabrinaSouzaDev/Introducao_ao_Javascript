@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(63, 215, 251);
+    background: radial-gradient(circle, rgba(63, 215, 251, 1) 0%, rgba(252, 70, 147, 1) 100%);
+    ;
+}
+
+button {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 30%;
+    border: 2px solid rgb(126, 10, 87);
+    background: rgb(47, 34, 195);
+    background: linear-gradient(0deg, rgba(47, 34, 195, 1) 0%, rgba(247, 45, 253, 1) 100%);
+    color: rgb(14, 13, 13);
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+#counter {
+    display: flex;
+}
+
+#num {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+input {
+    width: 100%;
+    margin-top: 4px;
+    padding: 10px;
+    border: 1px solid #696868;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(255, 249, 249, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(31, 30, 30, 0.6) inset;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
